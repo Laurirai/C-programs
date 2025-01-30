@@ -21,11 +21,11 @@ int main(void) {
         scanf("%d", &choice); // tallennetaan vastaus muuttujaan
         switch (choice) { // käsitellään vastaus switchissä, jokaiselle vastaukselle oma jatkonsa
             case 1: // jos vastaus == 1
-                int my_roll = roll_d6(); // kutsutaan muuttujaa
+                int my_roll = roll_d6(); // kutsutaan funktiota
             printf("You rolled %d\n", my_roll); // printtaus
             break; // poistutaan switchistä, mutta pysytään while loopissa
             case 2: // jos vastaus == 2
-                int my_roll_d10 = roll_d10(); // kutsutaan muuttujaa
+                int my_roll_d10 = roll_d10(); // kutsutaan funktiota
             printf("You rolled %d\n", my_roll_d10);
             break; // poistutaan switchistä, mutta pysytään while loopissa
             case 3: // jos vastaus == 3
