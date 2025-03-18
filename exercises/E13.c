@@ -23,7 +23,7 @@ int main(void){
   printf("Enter a file name: ");
   scanf("%s",filename); // scanning the file name to the array created earlier
 
-  // if file exists the "filename" is oppened for input from the first character in the file
+  // if file exists the "filename" is opened for input from the first character in the file
   // if the file does not exist, fopen returns NULL
   fp = fopen(filename, "r");
 
@@ -32,7 +32,7 @@ int main(void){
     exit(EXIT_FAILURE);
   }
 
-  // fscan returns 1 if succesfull
+  // fscan returns 1 if successfull
   // will loop till doesn't get a new number from the file
   while(fscanf(fp, "%d", &placeholder_number) == 1){
     counter++;
