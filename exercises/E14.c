@@ -46,7 +46,7 @@ int main(void){
     return -1;
   }
 
-  // writing the new lines back to the file
+  // writing the new lines back to the file // this will replace the old ones
   for (int i = 0; i < counter; i++){
     fprintf(fp, "%s\n", strings[i]);
   }
