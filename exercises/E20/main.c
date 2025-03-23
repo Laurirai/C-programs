@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// i could run this program, dont know why.
+// i could not run this program, dont know why.
 // tried to do all sorts of fixes, but nothing seemed to work
 // also,,, im not sure i even get the exercise.. but thought id return this still
 // incase i get a point or two.. :)
